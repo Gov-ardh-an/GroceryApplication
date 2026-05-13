@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-13T05:18:23 EDT" name="Suite" finished-at="2026-05-13T05:18:34 EDT" duration-ms="11734">
+    <groups>
+    </groups>
+    <test started-at="2026-05-13T05:18:23 EDT" name="Test" finished-at="2026-05-13T05:18:34 EDT" duration-ms="11734">
+      <class name="test.AdminUserTest">
+        <test-method is-config="true" signature="initializeBrowser(java.lang.String)[pri:0, instance:test.AdminUserTest@7ce69770]" started-at="2026-05-13T05:18:23 EDT" name="initializeBrowser" finished-at="2026-05-13T05:18:29 EDT" duration-ms="6118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyWhetherUserIsAbleToSearchTheNewlyAddedUser()[pri:0, instance:test.AdminUserTest@7ce69770]" started-at="2026-05-13T05:18:29 EDT" name="verifyWhetherUserIsAbleToSearchTheNewlyAddedUser" description="User Is Able To Search The Newly Added User" finished-at="2026-05-13T05:18:34 EDT" duration-ms="5441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherUserIsAbleToSearchTheNewlyAddedUser -->
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:test.AdminUserTest@7ce69770]" started-at="2026-05-13T05:18:34 EDT" name="driverQuit" finished-at="2026-05-13T05:18:34 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWhetherUserIsAbleToSearchTheNewlyAddedUser status=SUCCESS method=AdminUserTest.verifyWhetherUserIsAbleToSearchTheNewlyAddedUser()[pri:0, instance:test.AdminUserTest@7ce69770] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- test.AdminUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
